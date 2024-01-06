@@ -1,0 +1,10 @@
+qty=int(input("Input qty :"))
+net=0
+while qty!=0:
+    price=float(input("Input price :"))
+    total=qty*price
+    print("Total = {0:,.2f}".format(total))
+    net+=total
+    print("Net Total = {0:,.2f}".format(net))
+    qty=int(input("Input qty :"))
+print("Net Total = {0:,.2f}".format(net))
